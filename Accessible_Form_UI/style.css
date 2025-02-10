@@ -7,7 +7,6 @@ body{
 .form-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    /* background-color: yellow; */
     max-width: 100%;
     width: 50vw;
     height: auto;
@@ -27,7 +26,6 @@ span{
     max-height: 100%;
     height: 10vh;
     width: 30vw;
-    /* background-color: blue; */
 }
 span label{
     font-weight: bolder;
