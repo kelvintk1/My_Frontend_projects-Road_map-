@@ -2,14 +2,19 @@ body{
     display: flex;
     justify-content: center;
     margin: 30px;
+    background-color: black;
 }
 .form-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
     /* background-color: yellow; */
     max-width: 100%;
-    width: 70vw;
+    width: 50vw;
     height: auto;
+    box-shadow: 5px 5px 5px 5px rgb(68, 64, 64);
+    padding: 30px;
+    border-radius: 10px;
+    background-color: rgb(238, 233, 233);
 }
 form{
     display:flex;
@@ -80,18 +85,18 @@ button:hover{
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    border: 10px solid #e0e0e0; /* Light gray background */
+    border: 10px solid #e0e0e0;
 }
 .progress-fill {
     width: 120px;
     height: 120px;
     border-radius: 50%;
-    border: 10px solid #4CAF50; /* Green progress color */
+    border: 10px solid #4CAF50;
     position: absolute;
     top: 0;
     left: 0;
-    clip-path: polygon(50% 50%, 100% 0%, 100% 100%, 0% 100%, 0% 0%); /* Creates the arc */
-    transform: rotate(-90deg); /* Start from the top */
+    clip-path: polygon(50% 50%, 100% 0%, 100% 100%, 0% 100%, 0% 0%);
+    transform: rotate(-90deg);
 }
 .progress-text {
     position: absolute;
@@ -102,7 +107,7 @@ button:hover{
     font-weight: bold;
 }
 .guide{
-    background-color: rgb(230, 233, 235);
+    background-color: rgb(200, 228, 247);
     border-radius: 10px;
     padding: 10px;
     padding-left: 40px;
