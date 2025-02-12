@@ -1,0 +1,28 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.gallery_container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.container img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.container{
+    height: 45%;
+    width: 100%;
+    border-radius: 10px;
+}
+.container .image_1{
+    height: 120%;
+}
+.container .image_2{
+    height: 70%;
+}
