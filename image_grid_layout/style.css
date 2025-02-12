@@ -26,3 +26,7 @@ body{
 .container .image_2{
     height: 70%;
 }
+.image_1:hover, .image_2:hover{
+    box-shadow: 5px 5px 5px 5px black;
+    cursor: pointer;
+}
